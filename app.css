@@ -1,0 +1,195 @@
+body {
+    background-image: url("https://i.imgur.com/CkyfxTy.jpeg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-color: rgb(47, 120, 240);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1 {
+
+    background-color: #e6f0f7;
+    padding: .3em;
+    margin: .8em auto;
+    font-weight: 700;
+    font-size: 1.4em;
+    border-radius: 0.5rem;
+    letter-spacing: .1em;
+    max-width: 250px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.selectedTracks {
+    /* display: grid;
+    grid: column; */
+
+    width: 95%;
+
+}
+
+.listSelect {
+    height: 25px;
+    text-align: center;
+    background-color: #f2f7fa;
+    border-radius: 0.25rem;
+}
+
+.daySelect {
+    text-align: center;
+    background-color: #f2f7fa;
+    border-radius: 0.25rem;
+}
+
+.trackDisplay {
+    background-color: #e6f0f7;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+
+}
+
+.infoDisplay {
+    display: grid;
+    justify-items: center;
+}
+
+.infoDisplay select {
+    text-align: center;
+    width: 50%
+}
+
+.imageDisplay {
+    height: 5em;
+}
+
+
+
+.forecastInfo {
+    align-items: center;
+    justify-content: center;
+}
+
+.forecastIcon {
+    width: 6em;
+    height: 6em;
+}
+
+.forecastCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forecastSummary {
+    text-align: justify;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+.forecastCard,
+.forecastSummary {
+    padding: 0.5rem;
+    min-width: 0;
+
+}
+
+.loader {
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    padding: 1rem;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #333;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 0.8s linear infinite;
+    margin: auto;
+}
+
+.loader::after {
+    content: ' ⏳';
+
+}
+
+#addTrackBtn {
+    background-color: #fffecc;
+    border-radius: 0.25em;
+}
+
+footer {
+
+    background-color: #e6f0f7;
+    padding: .3em;
+    margin: .8em auto;
+    font-weight: 700;
+    font-size: 0.8em;
+    border-radius: 0.5rem;
+    letter-spacing: .1em;
+    max-width: 250px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media(min-width: 992px) {
+
+
+    /* .trackDisplay {
+        height: 200px;
+    } */
+
+    /* .listSelect {
+
+        width: 150px;
+    } */
+}
+
+
+@media (max-width: 350px) {
+
+    .forecastDisplay {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .forecastInfo {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .forecastCard,
+    .forecastSummary {
+        flex: 0 0 auto;
+        min-width: 150px;
+
+    }
+}

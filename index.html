@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trackWeather</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Libertinus+Mono&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1 class="text-center">trackWeather</h1>
+    <section class="selectedTracks mx-auto"></section>
+    <button id="addTrackBtn" class='mt-2'>+ Add Track</button>
+    <footer class="text-center">Created by Langley Scott</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="container-fluid trackDisplay mt-3 pt-2 row justify-content-center mx-auto ">
+            <div class="infoDisplay col-lg-3 border">
+                <select class="listSelect">
+                    <option value="">--Pick a track!--</option>
+                    <option value="Dover">Dover</option>
+                </select>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/Dover_Motor_Speedway_logo.png/500px-Dover_Motor_Speedway_logo.png"
+                    alt="" class="imageDisplay img-fluid">
+                <h6 class="locationDisplay">Dover, Delaware</h6>
+            </div>
+            <div class="forecastDisplay mt-3 mt-lg-0  col-lg-8 align-items-lg-center border">
+                <div class="forecastHeader row align-items-center  justify-content-center">
+                    <h2 class="justify-content-center my-auto">Forecast for</h2>
+                    <select class="daySelect ml-2 ">
+                        <option value="">--Pick a day!--</option>
+                        <option value="Friday">Friday </option>
+                        <option value="Friday Night">Friday Night</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Saturday Night">Saturday Night</option>
+                        <option value="Sunday">Sunday</option>
+                        <option value="Sunday Night">Sunday Night</option>
+                    </select>
+                </div>
+                <div class="forecastInfo row mt-3 mb-2 align-items-center">
+                    <div class="forecastCard col-4  justify-content-start border">
+                        <img class="forecastIcon  rounded"
+                            src="https://api.weather.gov/icons/land/day/sct/rain_showers,20?size=medium" alt="">
+                        <span class="forecastTemp">89&#176F</span>
+                    </div>
+                    <div class="forecastSummary col-8 d-block">A
+                        slight chance of rain showers before 2pm,
+                        then a slight chance
+                        of
+                        showers and thunderstorms. Mostly sunny, with a high near 85.
+                    </div>
+                </div>
+            </div>
+        </div> -->
