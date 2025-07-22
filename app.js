@@ -35,13 +35,6 @@ const tracks = [
         imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Charlotte_Motor_Speedway_logo.svg/960px-Charlotte_Motor_Speedway_logo.svg.png'
     },
     {
-        Name: 'Chicago Street Course',
-        shortName: 'Chicago (Street)',
-        location: 'Chicago, Illinois',
-        point: '41.875, -87.620',
-        imgURL: 'https://static.wikia.nocookie.net/logopedia/images/6/62/Nascarchicagostreetlogo2025present.png/revision/latest/scale-to-width-down/340?cb=20241210041116'
-    },
-    {
         Name: 'Chicagoland Speedway',
         shortName: 'Chicagoland',
         location: 'Joliet, Illinois',
