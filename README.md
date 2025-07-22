@@ -21,7 +21,7 @@ Selecting track by racing series - Rather than selecting a track and day of the 
 
 Design - I'm no artist, but with practice the visuals of the site can be improved greatly.
 
-All  track logo images came from Wikipedia with the execption of the Chicago Street Course logo, which came from https://www.nascarchicago.com/.
+All  track logo images came from Wikipedia.
 The weather data comes from weather.gov.
 
 I hope you enjoy using trackWeather!
