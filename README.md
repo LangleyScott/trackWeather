@@ -1,10 +1,6 @@
 # trackWeather
 trackWeather allows the user to view weather forecasts at multiple race tracks at once.
 
-==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
---==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
-==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==
---==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
 This is trackWeather!
 
 trackWeather is my first web app; I have been learning web development for about three weeks.
